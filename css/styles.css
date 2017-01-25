@@ -1,0 +1,125 @@
+
+@font-face
+{
+	font-family: RobotoCondensed-Bold;
+	src: url(../fonts/RobotoCondensed-Bold.ttf);
+}
+
+*
+{
+	font-family: RobotoCondensed-Bold;
+}
+
+
+#index-body
+{
+	background: url("../images/index-back6.jpg") no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#start-page
+{
+	font-size: 50px;
+	color: #fff;
+}
+
+.icon
+{
+	font-size: 50px;
+	color: #FFC700;
+}
+
+.navbar
+{
+	background-color: #3A3A3A;
+}
+
+.navbar a
+{
+	color: #fff;
+	font-size: 16px;
+}
+
+.navbar li>a:hover
+{
+	border-bottom: 1px solid #FFC700;
+	background-color: #000;
+}
+
+
+/*
+====================================================
+	ANIMATIONS
+====================================================
+*/
+
+#programmer
+{
+	animation: jello 3s ease-in-out 1s	;
+}
+
+#artist
+{
+	animation: jello 3s ease-in-out 2s	;
+}
+
+#gamer
+{
+	animation: jello 3s ease-in-out 3s	;
+}
+
+/*
+====================================================
+*/
+
+/*
+====================================================
+	COLOURS, BORDERS AND GRADIENTS
+====================================================
+*/
+
+.row-back1
+{
+	background: url("../images/back4.png");
+	opacity: 0.9;
+}
+
+.row-back2
+{
+	background: url("../images/back.png");
+}
+
+.yellow-font
+{
+	color: #FFC700;
+}
+
+.blue-font
+{
+	color: #3AADFF;
+}
+
+.grey-outline
+{
+	border: 2px solid grey;
+}
+
+.white-font
+{
+	color: #F2F2F2;
+}
+
+.right-outline
+{
+	border-right: 3px solid grey;
+	border-bottom: 3px solid grey;
+}
+
+.left-outline
+{
+	border-left: 3px solid grey;
+	border-bottom: 3px solid grey;
+}
